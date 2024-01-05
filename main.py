@@ -1,27 +1,3 @@
-#######################################################################################################################
-#                                                                                                                     #
-#                                MIS40750: Analytics Research and Implementation                                      #
-#                                                                                                                     #
-#                                 ARI Programming Assignment - Airline Seating                                        #
-#                                                                                                                     #
-#                                           Due Date: February 24, 2017                                               #
-#                                              MSc Business Analytics                                                 #
-#                                                                                                                     #
-# Author: Deepak Kumar Gupta and Shruti Goyal                                                               Professor:#
-#            16200660             16200726                                                          Dr James McDermott#
-#                                                                                                                     #
-# Github : https://github.com/01dkg/ARI/tree/master/code                                                              #
-#######################################################################################################################
-
-
-#NOTE:
-# To run this code go to Command Prompt(cmd) or terminal and then type:
-# G:\Pycharm_programs\ARI\code>python seat_assign_16200660_16200726.py airline_seating.db bookings.csv
-
-
-########################################################################################################################
-#                           Import libraries and packages required to implement the algorithm                          #
-########################################################################################################################
 
 import sys
 import unittest

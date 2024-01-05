@@ -1,22 +1,3 @@
-#######################################################################################################################
-#                                                                                                                     #
-#                                MIS40750: Analytics Research and Implementation                                      #
-#                                                                                                                     #
-#                                 ARI Programming Assignment - Airline Seating                                        #
-#                                                                                                                     #
-#                                           Due Date: February 24, 2017                                               #
-#                                              MSc Business Analytics                                                 #
-#                                                                                                                     #
-# Author: Deepak Kumar Gupta and Shruti Goyal                                                               Professor:#
-#            16200660             16200726                                                          Dr James McDermott#
-#                                                                                                                     #
-# Github : https://github.com/01dkg/ARI/tree/master/code                                                              #
-#######################################################################################################################
-
-
-#NOTE:
-# To run this code go to Command Prompt(cmd) or terminal and then type:
-# G:\Pycharm_programs\ARI\code>python seat_assign_16200660_16200726.py airline_seating.db bookings.csv
 
 
 ########################################################################################################################
@@ -531,8 +512,8 @@ class test_after_total_seats(unittest.TestCase):
         self.assertEqual(passenger_refused,216)
 
     def test_passenger_refused2(self):
-        passenger_seated_away ,passenger_refused= __main__(self.db,self.filename)
-        self.assertEqual(passenger_refused,120)
+        passenger_seated_away, passenger_refused = __main__(self.db, self.filename)
+        self.assertEqual(passenger_refused, 120)
 
     def test_read_seat_config(self):
         nrows, seat_config, seat_col = read_seat_config()
